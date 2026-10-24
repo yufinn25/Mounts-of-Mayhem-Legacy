@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "entries": [
+    "mountsofmayhem:nautilus_armor_buried_treasure",
+    "mountsofmayhem:nautilus_armor_shipwreck_map",
+    "mountsofmayhem:nautilus_armor_shipwreck_supply",
+    "mountsofmayhem:nautilus_armor_shipwreck_treasure",
+    "mountsofmayhem:nautilus_armor_underwater_ruin_big",
+    "mountsofmayhem:nautilus_armor_underwater_ruin_small"
+  ]
+}

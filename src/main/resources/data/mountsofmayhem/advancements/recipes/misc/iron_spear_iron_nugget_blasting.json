@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mountsofmayhem:iron_spear_iron_nugget_blasting"
+      }
+    },
+    "has_iron_spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mountsofmayhem:iron_spear"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iron_spear"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mountsofmayhem:iron_spear_iron_nugget_blasting"
+    ]
+  }
+}

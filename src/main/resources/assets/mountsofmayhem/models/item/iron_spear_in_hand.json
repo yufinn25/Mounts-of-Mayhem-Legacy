@@ -1,0 +1,6 @@
+{
+  "parent": "mountsofmayhem:item/spear_in_hand",
+  "textures": {
+    "layer0": "mountsofmayhem:item/iron_spear_in_hand"
+  }
+}

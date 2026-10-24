@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mountsofmayhem:stone_spear"
+      }
+    },
+    "has_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:stone_crafting_materials"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cobblestone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mountsofmayhem:stone_spear"
+    ]
+  }
+}

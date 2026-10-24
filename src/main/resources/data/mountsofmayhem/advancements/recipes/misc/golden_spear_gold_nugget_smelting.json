@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mountsofmayhem:golden_spear_gold_nugget_smelting"
+      }
+    },
+    "has_golden_spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mountsofmayhem:golden_spear"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_golden_spear"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mountsofmayhem:golden_spear_gold_nugget_smelting"
+    ]
+  }
+}

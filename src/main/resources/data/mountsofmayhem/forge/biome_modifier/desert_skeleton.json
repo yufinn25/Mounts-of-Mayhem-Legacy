@@ -1,0 +1,6 @@
+{
+  "type": "mountsofmayhem:set_spawns",
+  "biomes": ["minecraft:desert"],
+  "category": "monster",
+  "spawners": [{"type": "minecraft:skeleton", "weight": 50, "minCount": 4, "maxCount": 4}]
+}
